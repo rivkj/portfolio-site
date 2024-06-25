@@ -300,12 +300,13 @@ section {
 
 .details-container {
   padding: 1.5rem;
-  flex: 1;
   background: white;
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
+  border: 0.1rem solid rgb(53, 53, 53);
   text-align: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .section-container {
@@ -321,4 +322,62 @@ section {
 
 .text-container p {
   padding-bottom: 1rem;
+}
+
+/* Experience Section  - add arrow img after formatting */
+
+#experience {
+  padding: 2rem 1rem;
+}
+
+.experience-sub-title {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.experience-details-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 2rem;
+  margin: 1rem;
+  padding: 1rem 0;
+  justify-items: center;
+}
+
+/* Icons inside the article container */
+.icon-grid i {
+  font-size: 2rem;
+  color: #000;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Icon hover effect */
+.icon-grid i:hover {
+  transform: scale(1.1);
+  color: #007bff;
+}
+
+.article-container {
+  padding: 1rem 0;
+  justify-content: space-evenly;
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .icon-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 3rem; /* Reduce gap for smaller screens */
+  }
+
+  .icon-grid i {
+    font-size: 1.5rem; /* Adjust icon size for smaller screens */
+  }
 }
