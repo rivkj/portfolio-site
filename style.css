@@ -324,9 +324,10 @@ section {
   padding-bottom: 1rem;
 }
 
-/* Experience Section  - add arrow img after formatting */
+/* Experience Section  */
 
 #experience {
+  position: relative; /* position needed for arrow */
   padding: 2rem 1rem;
 }
 
