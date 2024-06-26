@@ -371,6 +371,8 @@ section {
   justify-content: space-evenly;
 }
 
+/* Projects */
+
 /* Responsive adjustments */
 @media (max-width: 900px) {
   .icon-grid {
