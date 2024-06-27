@@ -7,3 +7,14 @@
     display: flex;
   }
 }
+
+@media (max-width: 900px) {
+  .icon-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 3rem;
+  }
+
+  .icon-grid i {
+    font-size: 1.5rem;
+  }
+}
