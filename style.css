@@ -403,6 +403,15 @@ section {
 
 /* Contact */
 
+.contact-sub-title {
+  display: inline-block;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 1.75rem;
+  padding-bottom: 8rem;
+  text-align: center;
+}
+
 #contact {
   display: flex;
   justify-content: center;
