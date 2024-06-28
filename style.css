@@ -316,6 +316,10 @@ section {
   height: 80%;
 }
 
+.section-container:first-of-type {
+  padding-top: 2rem;
+}
+
 .section__pic-container {
   height: 400px;
   width: 400px;
@@ -330,7 +334,7 @@ section {
 
 #experience {
   position: relative; /* position needed for arrow */
-  padding: 2rem 1rem;
+  padding: 5rem 1rem;
 }
 
 .experience-sub-title {
@@ -350,7 +354,6 @@ section {
 .icon-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  gap: 2rem;
   margin: 1rem;
   padding: 1rem 0;
   justify-items: center;
