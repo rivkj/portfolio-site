@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -154,7 +155,7 @@ section {
   padding-top: 4vh;
   height: 96vh;
   margin: 0 10rem;
-  box-sizing: border-box;
+
   min-height: fit-content;
 }
 
@@ -334,7 +335,7 @@ section {
 
 #experience {
   position: relative; /* position needed for arrow */
-  padding: 5rem 1rem;
+  padding: 5rem 0;
 }
 
 .experience-sub-title {
@@ -355,7 +356,7 @@ section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   margin: 1rem;
-  padding: 1rem 0;
+  padding: 1rem;
   justify-items: center;
 }
 
@@ -366,7 +367,6 @@ section {
   transition: transform 0.3s ease-in-out;
 }
 
-/* Icon hover effect */
 .icon-grid i:hover {
   transform: scale(1.1);
   color: #007bff;
