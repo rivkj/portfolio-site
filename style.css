@@ -164,6 +164,10 @@ section {
   display: flex;
 }
 
+.section-container {
+  padding: 3rem 0;
+}
+
 /* Profile Section */
 
 #profile {
@@ -200,6 +204,7 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 #socials-container {
