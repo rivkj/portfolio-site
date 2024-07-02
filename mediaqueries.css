@@ -52,7 +52,7 @@
   }
 }
 
-@media (max-width: 900px) {
+@media screen and (max-width: 900px) {
   .icon-grid {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 3rem;
@@ -60,5 +60,41 @@
 
   .icon-grid i {
     font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #about {
+    margin-top: 2rem;
+  }
+
+  footer nav {
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    margin: 2rem 0;
+  }
+
+  .nav-links {
+    margin: 0.5rem 0;
+  }
+
+  footer .nav-links a {
+    font-size: 0.875rem;
+  }
+
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+  }
+
+  article {
+    font-size: 1rem;
+  }
+
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
   }
 }
