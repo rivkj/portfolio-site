@@ -356,13 +356,13 @@ section {
   width: 100%;
 }
 
-.icon-grid {
+/* .icon-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   margin: 1rem;
   padding: 1rem;
   justify-items: center;
-}
+} */
 
 /* Icons inside the article container */
 .icon-grid i {
@@ -377,6 +377,9 @@ section {
 }
 
 .article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
   padding: 1rem 0;
   justify-content: space-evenly;
 }
