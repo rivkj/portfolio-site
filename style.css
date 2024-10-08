@@ -53,10 +53,10 @@ a {
 }
 
 a:hover {
-  color: grey;
+  color: rgb(85, 132, 89);
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: rgb(85, 132, 89);
 }
 
 .logo {
@@ -372,6 +372,7 @@ section {
   transition: transform 0.3s ease-in-out;
 }
 
+.icon,
 .icon-grid i:hover {
   transform: scale(1.1);
   color: #007bff;
