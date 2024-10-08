@@ -356,13 +356,14 @@ section {
   width: 100%;
 }
 
-/* .icon-grid {
+.icon-grid {
+  cursor: default;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  margin: 1rem;
-  padding: 1rem;
-  justify-items: center;
-} */
+  grid-template-columns: auto auto auto;
+  gap: 1rem;
+  padding: 30px;
+  text-align: center;
+}
 
 /* Icons inside the article container */
 .icon-grid i {
@@ -374,14 +375,6 @@ section {
 .icon-grid i:hover {
   transform: scale(1.1);
   color: #007bff;
-}
-
-.article-container {
-  display: flex;
-  text-align: initial;
-  flex-wrap: wrap;
-  padding: 1rem 0;
-  justify-content: space-evenly;
 }
 
 /* Projects */
