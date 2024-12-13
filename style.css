@@ -459,6 +459,14 @@ section {
   height: 2.5rem;
 }
 
+/* Demo Page */
+
+#lumiere-vid {
+  height: auto;
+  max-width: 100%;
+  padding-right: 1rem;
+}
+
 /* Footer */
 
 footer {
