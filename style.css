@@ -472,6 +472,11 @@ section {
   padding: 3rem 1rem 0 0;
 }
 
+#landing-page {
+  height: auto;
+  max-width: 100%;
+}
+
 /* Footer */
 
 footer {
