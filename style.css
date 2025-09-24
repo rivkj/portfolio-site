@@ -418,38 +418,52 @@ main {
   max-width: 1200px;
   margin: auto;
 }
+
 .project-card {
   background: #fff;
   border-radius: 10px;
-  overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
   transition: transform 0.2s ease;
 }
+
 .project-card:hover {
   transform: scale(1.02);
 }
+
 .project-card img {
   width: 100%;
   height: 180px;
   object-fit: cover;
 }
+
 .project-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
   padding: 1rem;
 }
+
 .project-content h3 {
   margin: 0 0 0.5rem;
 }
+
 .project-content p {
+  flex: 1;
   font-size: 0.9rem;
   line-height: 1.4;
 }
+
 .project-content a {
   display: inline-block;
-  margin-top: 0.5rem;
   color: #0077cc;
-  text-decoration: none;
   font-weight: bold;
+  margin-top: auto;
+  text-decoration: none;
 }
+
 .project-content a:hover {
   text-decoration: underline;
 }
@@ -479,9 +493,8 @@ main {
   transform: scale(1.05);
 }
 
-/* Lightbox hidden by default*/
-
 /* Lightbox hidden by default */
+
 .lightbox {
   display: none;
   position: fixed;
